@@ -3,6 +3,7 @@
 string=input('Enter a string: ')
 replacing_substring=input('Enter a substring to be replaced: ')
 new_substring=input('Enter new substring: ')
+
 def ReplaceSubString(string,replacing_substring,new_substring):
     def CountString(a):
             count=0
