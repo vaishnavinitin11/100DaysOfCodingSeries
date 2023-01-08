@@ -2,19 +2,12 @@
 
 def SortArray():
     def DynamicArray():
-            narr=int(input('Enter size of an array: '))
-            array=[]
-            for i in range(narr):
-                enternum=int(input('Enter items of an array: '))
-                array.append(enternum)
-            return array
-
-    def CountInterger(array):
-        count=0
-        for i in array:
-            count+=1
-        return count
-
+        narr=int(input('Enter size of an array: '))
+        array=[]
+        for i in range(narr):
+            enternum=int(input('Enter items of an array: '))
+            array.append(enternum)
+        return array
 
     array=DynamicArray()
     temp=0
@@ -35,9 +28,28 @@ def SortArray():
                     array[i]=array[j]
                     array[j]=temp
 
-    for item in array:
-        count=CountInterger(array)
-
+                    
     print(array)
 
 SortArray()
+
+
+
+
+
+# if number occurs more thn one time then it will print (n-1)times that number
+    # count_item=[]
+    # for ind,item in enumerate(array):
+    #     count=0
+    #     for ind1,item1 in enumerate(array):
+    #         if item == item1:
+    #             count+=1
+
+    #     if item not in count_item and count>1:
+    #         for i in range(count-1):
+    #             count_item.append(item)
+    #     elif count==1:
+    #         count_item.append(item)
+
+    # print(count_item)
+
