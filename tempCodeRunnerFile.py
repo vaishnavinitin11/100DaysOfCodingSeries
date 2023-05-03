@@ -1,1 +1,1 @@
-        # for w in range(n-j):
+        print(x + 1, end = ' ')

@@ -9,3 +9,6 @@ def reverseString(n):
         r1+=n[r]
         r-=1
     return(r1)
+
+r2=reverseString(n)
+print(r2)
