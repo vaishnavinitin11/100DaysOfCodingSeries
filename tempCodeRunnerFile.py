@@ -1,4 +1,1 @@
-        if sum==n+1:
-            print('Prime Number')
-        else:
-            print('Not a Prime Number')
+2024/10/22
